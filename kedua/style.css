@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* header */
+
+header {
+    background-color: blanchedalmond;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding: 70px;
+    box-sizing: border-box;
+}
+
+header h1 {
+    padding: 22px 0px;
+}
+
+/* navbar */
+
+ul {
+    list-style: none;
+    width: 100%;
+    overflow: hidden;
+    background-color: burlywood;
+    position: sticky;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: brown;
+    transition: 2 ease-in-out;
+}
+
+.active {
+    background-color: lightsalmon;
+    cursor: cell;
+}
+
+
+.foto {
+    width: 58rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    box-shadow: 0 1px 6px 0px rgba(0, 0, 0, 0.2) ;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+aside {
+    float: right;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.muka {
+    width: 13rem;
+}
+
+article p {
+    margin-top: 2rem;
+    text-indent: 20px;
+}
+
+article h3 {
+    padding: 10px;
+}
+
+article {
+    padding: 5px;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: bisque;
+    margin-top: 5px;
+}
